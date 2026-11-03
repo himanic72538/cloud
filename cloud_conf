@@ -109,7 +109,8 @@ git fetch: Downloads remote changes without automatically merging them, letting 
 
 
 
-Assugnment 2.
+Assugnment 2. GIT
+
 Question 1: Remote Repository Cloning, Editing, and Pushing (java-hello-repo)
 Clone an empty remote repository:
 git clone https://github.com/himanic72538/java-hello-repo.git
@@ -210,7 +211,8 @@ docker run -d --name my-apache-server -p 8090:80 httpd
 
 
 
-Assignment3.
+Assignment3. TOMCAT
+
 Question 1: Run Tomcat Web Server
 Commands:
 cd tomcat
@@ -367,7 +369,7 @@ docker compose up --build
 
 
 
-A4
+A4: JENKINS
 
 
 Question 1: Display Welcome Message in Console
@@ -441,7 +443,8 @@ df -h
 
 
 
-Cloud Assignment 5
+Cloud Assignment 5 GIT & DOCKER
+
 Question 1: Create a GitHub repository containing a simple Python application and a Dockerfile. Clone the repository to your local machine.
 Commands & Steps:
 mkdir a4_q1_flask-docker-demo
@@ -753,7 +756,9 @@ pipeline {
 
 Steps: Combine the webhook setup (from Q11) with this pipeline script so that every git push automatically updates and redeploys the container.
 
-Assignment 6
+Assignment 6 KUBERNETES
+
+
 Question 1: Create a Pod named web1 using the nginx image
 Command Executed:
 kubectl run web1 --image=nginx
@@ -889,7 +894,9 @@ kubectl get deployments,rs,pods -l app=web-deploy
 
 
 
-Cloud Assignment 7
+Cloud Assignment 7 AWS
+
+
 Part 1: AWS EC2, S3, and Lambda Assignments
 Question 1: Launch an EC2 instance using Amazon Linux and check its status.
 Steps / Actions on AWS Console:
